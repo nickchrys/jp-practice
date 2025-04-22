@@ -1,0 +1,248 @@
+:root {
+  /* Light mode colors (default) */
+  --bg-color: #f9f9f9;
+  --text-color: #333;
+  --card-bg: #ffffff;
+  --card-border: #ccc;
+  --button-bg: #e0e0e0;
+  --button-text: #333;
+  --button-hover: #d0d0d0;
+  --definition-bg: #f0f0f0;
+  --tooltip-bg: #333;
+  --tooltip-text: #fff;
+  --accent-color: #2196F3;
+}
+
+/* Dark mode colors */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #1a1a1a;
+    --text-color: #e0e0e0;
+    --card-bg: #2d2d2d;
+    --card-border: #404040;
+    --button-bg: #404040;
+    --button-text: #e0e0e0;
+    --button-hover: #505050;
+    --definition-bg: #363636;
+    --tooltip-bg: #505050;
+    --tooltip-text: #fff;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 20px;
+  font-size: 40px;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr));
+  gap: 20px;
+  width: 95%;
+  max-width: 1600px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.card {
+  border: 2px solid var(--card-border);
+  padding: 20px;
+  background-color: var(--card-bg);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  min-height: 250px;
+  max-width: 600px;
+}
+
+/* Card-specific styles */
+#quiz-card {
+  grid-column: 1 / -1;
+  margin-bottom: 30px;
+  border-color: var(--accent-color);
+  max-width: 900px;
+}
+
+#nouns-card {
+  border-color: #4CAF50;
+}
+
+#adjectives-card {
+  border-color: #2196F3;
+}
+
+#verbs-card {
+  border-color: #9C27B0;
+}
+
+#grammar-card {
+  border-color: #FF9800;
+}
+
+/* Quiz card content */
+#quiz-card h3 {
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--accent-color);
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+#quiz-card #question {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#quiz-card #answer {
+  color: var(--text-color);
+  background-color: var(--card-bg);
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* Buttons and interactive elements */
+button {
+  margin-top: 10px;
+  padding: 10px;
+  cursor: pointer;
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: var(--button-hover);
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+/* Selectors */
+.lesson-selector,
+.grammar-selector {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.lesson-selector label,
+.grammar-selector label {
+  color: var(--text-color);
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+select {
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid var(--card-border);
+  border-radius: 4px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  width: 50%;
+}
+
+select[multiple] {
+  height: 100px;
+}
+
+/* Cleaning up the option styles */
+select option {
+  padding: 4px 8px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+}
+
+select:hover {
+  border-color: var(--button-hover);
+}
+
+select:focus {
+  outline: none;
+  border-color: var(--button-hover);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+select option:checked {
+  background-color: var(--button-bg);
+}
+
+select option:hover {
+  background-color: var(--button-hover);
+}
+
+/* Text elements */
+.definition {
+  color: var(--text-color);
+  font-style: italic;
+  margin-top: 5px;
+  padding: 5px;
+  background-color: var(--definition-bg);
+  border-radius: 3px;
+}
+
+.japanese-word {
+  position: relative;
+  cursor: help;
+}
+
+.japanese-word:hover::after {
+  content: attr(data-hiragana);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: var(--tooltip-bg);
+  color: var(--tooltip-text);
+  padding: 5px;
+  border-radius: 4px;
+  font-size: 0.9em;
+  white-space: nowrap;
+  z-index: 1000;
+  margin-bottom: 5px;
+}
+
+h3 {
+  color: var(--text-color);
+  margin-top: 0;
+}
+
+.swap-button {
+  background-color: var(--button-bg);
+  color: var(--button-text);
+  border: 1px solid var(--card-border);
+  padding: 8px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.swap-button:hover {
+  background-color: var(--button-hover);
+}
+
+/* Responsive layout */
+@media (max-width: 1024px) {
+  .cards-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    max-width: 800px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+  }
+}
