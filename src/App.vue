@@ -53,9 +53,9 @@ onMounted(() => {
 <template>
   <div id="app">
     <div class="cards-container">
-      <NounsCard :words="words" :cardStates="cardStates" id="nouns-card" @update-card-state="handleCardStateUpdate"/>
+      <NounsCard :words="words" :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
       <VerbsCard :words="words" :cardStates="cardStates" id="verbs-card" @update-card-state="handleCardStateUpdate"/>
-      <AdjectivesCard :words="words" :cardStates="cardStates" id="adjectives-card" @update-card-state="handleCardStateUpdate"/>
+      <AdjectivesCard :words="words" :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
     </div>
   </div>
 </template>
