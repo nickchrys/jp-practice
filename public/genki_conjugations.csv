@@ -1,0 +1,115 @@
+Form Name,Base Form Type,Before (Base),After (Conjugated)
+Present Affirmative (Polite),る-verb,食べる,食べます
+Present Affirmative (Polite),う-verb,書く,書きます
+Present Affirmative (Polite),Irregular,する / くる,します / きます
+Present Negative (Polite),る-verb,食べる,食べません
+Present Negative (Polite),う-verb,書く,書きません
+Present Negative (Polite),Irregular,する / くる,しません / きません
+Past Affirmative (Polite),る-verb,食べる,食べました
+Past Affirmative (Polite),う-verb,書く,書きました
+Past Affirmative (Polite),Irregular,する / くる,しました / きました
+Past Negative (Polite),る-verb,食べる,食べませんでした
+Past Negative (Polite),う-verb,書く,書きませんでした
+Past Negative (Polite),Irregular,する / くる,しませんでした / きませんでした
+Present Affirmative (Casual),る-verb,食べる,食べる
+Present Affirmative (Casual),う-verb,書く,書く
+Present Affirmative (Casual),Irregular,する / くる,する / くる
+Present Negative (Casual),る-verb,食べる,食べない
+Present Negative (Casual),う-verb,書く,書かない
+Present Negative (Casual),Irregular,する / くる,しない / こない
+Past Affirmative (Casual),る-verb,食べる,食べた
+Past Affirmative (Casual),う-verb,書く,書いた
+Past Affirmative (Casual),Irregular,する / くる,した / きた
+Past Negative (Casual),る-verb,食べる,食べなかった
+Past Negative (Casual),う-verb,書く,書かなかった
+Past Negative (Casual),Irregular,する / くる,しなかった / こなかった
+Te-form,る-verb,食べる,食べて
+Te-form,う-verb,書く,書いて
+Te-form,Irregular,する / くる,して / きて
+Te-iru (Progressive),る-verb,食べる,食べている
+Te-iru (Progressive),う-verb,書く,書いている
+Te-iru (Progressive),Irregular,する / くる,している / きている
+Te-iru Negative,る-verb,食べる,食べていない
+Te-iru Negative,う-verb,書く,書いていない
+Te-iru Negative,Irregular,する / くる,していない / きていない
+Volitional (Casual),る-verb,食べる,食べよう
+Volitional (Casual),う-verb,書く,書こう
+Volitional (Casual),Irregular,する / くる,しよう / こよう
+Volitional (Polite),る-verb,食べる,食べましょう
+Volitional (Polite),う-verb,書く,書きましょう
+Volitional (Polite),Irregular,する / くる,しましょう / きましょう
+Potential (Casual),る-verb,食べる,食べられる
+Potential (Casual),う-verb,書く,書ける
+Potential (Casual),Irregular,する / くる,できる / 来られる
+Potential (Polite),る-verb,食べる,食べられます
+Potential (Polite),う-verb,書く,書けます
+Potential (Polite),Irregular,する / くる,できます / 来られます
+Passive (Casual),る-verb,食べる,食べられる
+Passive (Casual),う-verb,書く,書かれる
+Passive (Casual),Irregular,する / くる,される / こられる
+Passive (Polite),る-verb,食べる,食べられます
+Passive (Polite),う-verb,書く,書かれます
+Passive (Polite),Irregular,する / くる,されます / こられます
+Causative (Casual),る-verb,食べる,食べさせる
+Causative (Casual),う-verb,書く,書かせる
+Causative (Casual),Irregular,する / くる,させる / こさせる
+Causative (Polite),る-verb,食べる,食べさせます
+Causative (Polite),う-verb,書く,書かせます
+Causative (Polite),Irregular,する / くる,させます / こさせます
+Causative Passive (Casual),る-verb,食べる,食べさせられる
+Causative Passive (Casual),う-verb,書く,書かせられる
+Causative Passive (Casual),Irregular,する / くる,させられる / こさせられる
+Causative Passive (Polite),る-verb,食べる,食べさせられます
+Causative Passive (Polite),う-verb,書く,書かせられます
+Causative Passive (Polite),Irregular,する / くる,させられます / こさせられます
+Imperative (Casual),る-verb,食べる,食べろ
+Imperative (Casual),う-verb,書く,書け
+Imperative (Casual),Irregular,する / くる,しろ / こい
+Imperative (Polite),る-verb,食べる,食べてください
+Imperative (Polite),う-verb,書く,書いてください
+Imperative (Polite),Irregular,する / くる,してください / きてください
+Tara Conditional,る-verb,食べる,食べたら
+Tara Conditional,う-verb,書く,書いたら
+Tara Conditional,Irregular,する / くる,したら / きたら
+Ba Conditional,る-verb,食べる,食べれば
+Ba Conditional,う-verb,書く,書けば
+Ba Conditional,Irregular,する / くる,すれば / くれば
+Nara Conditional,る-verb,食べる,食べるなら
+Nara Conditional,う-verb,書く,書くなら
+Nara Conditional,Irregular,する / くる,するなら / くるなら
+Tai-form,る-verb,食べる,食べたい
+Tai-form,う-verb,書く,書きたい
+Tai-form,Irregular,する / くる,したい / きたい
+Sou-form (Looks like),る-verb,食べる,食べそう
+Sou-form (Looks like),う-verb,書く,書きそう
+Sou-form (Looks like),Irregular,する / くる,しそう / きそう
+Nagara (While doing),る-verb,食べる,食べながら
+Nagara (While doing),う-verb,書く,書きながら
+Nagara (While doing),Irregular,する / くる,しながら / きながら
+Koto ga aru (Experience),る-verb,食べる,食べたことがある
+Koto ga aru (Experience),う-verb,書く,書いたことがある
+Koto ga aru (Experience),Irregular,する / くる,したことがある / きたことがある
+Negative Request,る-verb,食べる,食べないでください
+Negative Request,う-verb,書く,書かないでください
+Negative Request,Irregular,する / くる,しないでください / こないでください
+Te-morau (Receive favor),る-verb,食べる,食べてもらう
+Te-morau (Receive favor),う-verb,書く,書いてもらう
+Te-moraut (Receive favor),Irregular,する / くる,してもらう / きてもらう
+Te-ageru (Do favor),る-verb,食べる,食べてあげる
+Te-ageru (Do favor),う-verb,書く,書いてあげる
+Te-ageru (Do favor),Irregular,する / くる,してあげる / きてあげる
+Te-kureru (Do for me),る-verb,食べる,食べてくれる
+Te-kureru (Do for me),う-verb,書く,書いてくれる
+Te-kureru (Do for me),Irregular,する / くる,してくれる / きてくれる
+Present Affirmative,い-adjective,たかい,たかいです
+Present Negative,い-adjective,たかい,たかくないです
+Past Affirmative,い-adjective,たかい,たかかったです
+Past Negative,い-adjective,たかい,たかくなかったです
+Present Affirmative,な-adjective,しずか,しずかです
+Present Negative,な-adjective,しずか,しずかじゃないです
+Past Affirmative,な-adjective,しずか,しずかでした
+Past Negative,な-adjective,しずか,しずかじゃなかったです
+Present Affirmative,Noun + です,学生,学生です
+Present Negative,Noun + です,学生,学生じゃないです
+Past Affirmative,Noun + です,学生,学生でした
+Past Negative,Noun + です,学生,学生じゃなかったです
