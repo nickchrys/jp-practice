@@ -50,11 +50,12 @@ onMounted(() => {
 
 <template>
   <div id="app">
+    
     <div class="cards-container">
+      <GrammarCard :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
+      <VerbsCard :words="words" :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
       <NounsCard :words="words" :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
-      <VerbsCard :words="words" :cardStates="cardStates" id="verbs-card" @update-card-state="handleCardStateUpdate"/>
       <AdjectivesCard :words="words" :cardStates="cardStates" @update-card-state="handleCardStateUpdate"/>
-      <GrammarCard/>
     </div>
   </div>
 </template>
